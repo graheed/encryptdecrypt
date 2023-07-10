@@ -1,0 +1,1 @@
+Encryption-Decryption was created using the Strategy pattern in Object Oriented Design. It offers two algorithms, Shift and Unicode and both offer the encrypt and decrypt functions. Input data can be read and also written to files using command line flags which simply the process. Specify the input text and key and output will be added to your specified location
