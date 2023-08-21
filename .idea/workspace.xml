@@ -4,19 +4,58 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="13d2bcc3-9da5-4fec-a9e9-0c91dfb1545c" name="Changes" comment="">
+    <list default="true" id="0d266d45-d2d0-477e-a761-e95839c7220c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inputTextDecryptShift.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inputTextDecryptUnicode.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inputTextEncrypt.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/encryptdecrypt/FileOperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/encryptdecrypt/EncryptionDecryptionContextTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/encryptdecrypt/MainTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/encryptdecrypt/ShiftAlgoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/encryptdecrypt/UnicodeAlgoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sun_checks.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/encryptdecrypt/EncryptionDecryption.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/encryptdecrypt/EncryptionDecryption.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/encryptdecrypt/EncryptionDecryptionContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/encryptdecrypt/EncryptionDecryptionContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/encryptdecrypt/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/encryptdecrypt/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/encryptdecrypt/ShiftAlgo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/encryptdecrypt/ShiftAlgo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/encryptdecrypt/UnicodeAlgo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/encryptdecrypt/UnicodeAlgo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="2SOOp52YjJLYZdBUu3udrK32CCx" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2Ti7P9aAJCJyGdXndb4K9czi3eU" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -26,19 +65,126 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "last_opened_file_path": "/Users/raheedgilzene/Documents/Projects/Refactored_Tested/encryptdecrypt",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "run.code.analysis.last.selected.profile": "pProject Default",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="encryptdecrypt" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.java in encryptdecrypt">
+    <configuration name="EncryptionDecryptionContextTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="encryptdecrypt" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="encryptdecrypt.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="encryptdecrypt" />
+      <option name="MAIN_CLASS_NAME" value="encryptdecrypt.EncryptionDecryptionContextTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EncryptionDecryptionContextTest.contextTestShift" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="encryptdecrypt" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="encryptdecrypt.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="encryptdecrypt" />
+      <option name="MAIN_CLASS_NAME" value="encryptdecrypt.EncryptionDecryptionContextTest" />
+      <option name="METHOD_NAME" value="contextTestShift" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EncryptionDecryptionContextTest.modeUnsupported" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="encryptdecrypt" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="encryptdecrypt.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="encryptdecrypt" />
+      <option name="MAIN_CLASS_NAME" value="encryptdecrypt.EncryptionDecryptionContextTest" />
+      <option name="METHOD_NAME" value="modeUnsupported" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShiftAlgoTest.testEncrypt" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="encryptdecrypt" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="encryptdecrypt.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="encryptdecrypt" />
+      <option name="MAIN_CLASS_NAME" value="encryptdecrypt.ShiftAlgoTest" />
+      <option name="METHOD_NAME" value="testEncrypt" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="java in encryptdecrypt" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="encryptdecrypt" />
+      <option name="TEST_OBJECT" value="directory" />
+      <dir value="$PROJECT_DIR$/src/test/java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.java in encryptdecrypt" />
+        <item itemvalue="JUnit.EncryptionDecryptionContextTest" />
+        <item itemvalue="JUnit.EncryptionDecryptionContextTest.modeUnsupported" />
+        <item itemvalue="JUnit.EncryptionDecryptionContextTest.contextTestShift" />
+        <item itemvalue="JUnit.ShiftAlgoTest.testEncrypt" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="13d2bcc3-9da5-4fec-a9e9-0c91dfb1545c" name="Changes" comment="" />
-      <created>1689014341494</created>
+      <changelist id="0d266d45-d2d0-477e-a761-e95839c7220c" name="Changes" comment="" />
+      <created>1691514022379</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1689014341494</updated>
-      <workItem from="1689014342828" duration="1000" />
+      <updated>1691514022379</updated>
+      <workItem from="1691514023782" duration="1784000" />
+      <workItem from="1691598226087" duration="3706000" />
+      <workItem from="1692621208159" duration="1130000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/encryptdecrypt$All_in_encryptdecrypt.ic" NAME="All in encryptdecrypt Coverage Results" MODIFIED="1691514557074" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/encryptdecrypt$java_in_encryptdecrypt.ic" NAME="java in encryptdecrypt Coverage Results" MODIFIED="1691600875228" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

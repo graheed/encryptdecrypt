@@ -2,34 +2,44 @@ package encryptdecrypt;
 
 /**
  * This class represents the context for encryption and decryption operations.
- * It provides a way to set the encryption/decryption algorithm and process input text based on the selected mode.
+ * It provides a way to set the encryption/decryption algorithm and process
+ * input text based on the selected mode.
  */
 public class EncryptionDecryptionContext {
+    //Stores the algorithm that the class will
+    //use to perform the fundamental operations.
     private EncryptionDecryption algo;
 
     /**
      * Sets the encryption/decryption algorithm to be used.
      *
-     * @param algo The algorithm implementation.
+     * @param algorithm The algorithm implementation.
      */
-    public void setAlgo(EncryptionDecryption algo) {
-        this.algo = algo;
+    public void setAlgo(EncryptionDecryption algorithm) {
+        this.algo = algorithm;
     }
 
     /**
-     * Processes the input text based on the selected mode (encryption or decryption) using the set algorithm.
+     * Processes the input text based on
+     * the selected mode (encryption or decryption)
+     * using the set algorithm.
      *
      * @param inputText The text to be processed.
      * @param key       The encryption/decryption key.
-     * @param mode      The mode of operation ("enc" for encryption, "dec" for decryption).
-     * @return The processed text (encrypted or decrypted) based on the selected mode.
+     * @param mode      The mode of operation ("enc" for encryption,
+     *                  "dec" for decryption).
+     * @return The processed text (encrypted or decrypted)
+     * based on the selected mode.
      */
     public String process(String inputText, int key, String mode) {
+        String processedText = "";
         if ("enc".equals(mode)) {
-            return this.algo.encrypt(inputText, key);
+            processedText = this.algo.encrypt(inputText, key);
         } else if ("dec".equals(mode)) {
-            return this.algo.decrypt(inputText, key);
+            processedText = this.algo.decrypt(inputText, key);
+        } else {
+            processedText = "Mode not supported.";
         }
-        return null;
+        return processedText;
     }
 }
