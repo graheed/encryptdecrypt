@@ -21,10 +21,9 @@ This Java program offers encryption and decryption functionalities using the Shi
 Examples
 Encrypt using Shift algorithm and key 3:
 
-
 java Main -mode enc -key 3 -data "Hello" -alg shift
-Decrypt using Unicode algorithm with input from a file:
 
+Decrypt using Unicode algorithm with input from a file:
 
 java Main -mode dec -key 5 -in input.txt -alg unicode
 
