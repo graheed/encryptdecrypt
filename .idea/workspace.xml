@@ -1,34 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="ANALYZE_INJECTED_CODE" value="false" />
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d266d45-d2d0-477e-a761-e95839c7220c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inputTextDecryptShift.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inputTextDecryptUnicode.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inputTextEncrypt.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/encryptdecrypt/FileOperation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/encryptdecrypt/EncryptionDecryptionContextTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/encryptdecrypt/MainTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/encryptdecrypt/ShiftAlgoTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/encryptdecrypt/UnicodeAlgoTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sun_checks.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/encryptdecrypt/EncryptionDecryption.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/encryptdecrypt/EncryptionDecryption.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/encryptdecrypt/EncryptionDecryptionContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/encryptdecrypt/EncryptionDecryptionContext.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/encryptdecrypt/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/encryptdecrypt/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/encryptdecrypt/ShiftAlgo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/encryptdecrypt/ShiftAlgo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/encryptdecrypt/UnicodeAlgo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/encryptdecrypt/UnicodeAlgo.java" afterDir="false" />
-    </list>
+    <list default="true" id="0d266d45-d2d0-477e-a761-e95839c7220c" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -72,6 +51,7 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "run.code.analysis.last.selected.profile": "pProject Default",
     "vue.rearranger.settings.migration": "true"
   }
@@ -176,7 +156,7 @@
       <updated>1691514022379</updated>
       <workItem from="1691514023782" duration="1784000" />
       <workItem from="1691598226087" duration="3706000" />
-      <workItem from="1692621208159" duration="1130000" />
+      <workItem from="1692621208159" duration="2515000" />
     </task>
     <servers />
   </component>
