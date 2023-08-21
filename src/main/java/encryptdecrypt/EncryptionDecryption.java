@@ -2,7 +2,8 @@ package encryptdecrypt;
 
 /**
  * This interface defines the contract for encryption and decryption algorithms.
- * Implementing classes must provide methods to encrypt and decrypt text using a specific algorithm.
+ * Implementing classes must provide methods to encrypt and decrypt text using a
+ * specific algorithm.
  */
 public interface EncryptionDecryption {
 

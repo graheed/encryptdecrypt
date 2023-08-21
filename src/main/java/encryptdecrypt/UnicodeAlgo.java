@@ -1,14 +1,18 @@
 package encryptdecrypt;
 
 /**
- * This class implements the EncryptionDecryption interface using the Unicode algorithm.
- * The Unicode algorithm encrypts and decrypts text by shifting each character's Unicode value
- * by a given key.
+ *
+ * This class implements the EncryptionDecryption interface using
+ * the Unicode algorithm.
+ *
+ * The Unicode algorithm encrypts and decrypts text by shifting each
+ * character's Unicode value by a given key.
  */
 class UnicodeAlgo implements EncryptionDecryption {
 
     /**
-     * Encrypts the provided plain text using the Unicode algorithm and the given key.
+     * Encrypts the provided plain text using the
+     * Unicode algorithm and the given key.
      *
      * @param plainText The text to be encrypted.
      * @param key       The encryption key.
@@ -16,34 +20,33 @@ class UnicodeAlgo implements EncryptionDecryption {
      */
     @Override
     public String encrypt(String plainText, int key) {
-        String cipherText = "";
+        final StringBuilder cipherText = new StringBuilder();
 
-        for(int i = 0; i < plainText.length(); i++) {
-            char ch = plainText.charAt(i);
-            char encryptedChar = ch;
+        for (int i = 0; i < plainText.length(); i++) {
+            char encryptedChar = plainText.charAt(i);
             encryptedChar += key;
 
-            cipherText += encryptedChar;
+            cipherText.append(encryptedChar);
         }
-        return cipherText;
+        return cipherText.toString();
     }
 
     /**
-     * Decrypts the provided cipher text using the Unicode algorithm and the given key.
+     * Decrypts the provided cipher text
+     * using the Unicode algorithm and the given key.
      *
      * @param cipherText The text to be decrypted.
      * @param key        The decryption key.
      * @return The decrypted plain text.
      */
-    public String decrypt(String cipherText, int key) {
-        String plainText = "";
+    public String decrypt(String cipherText, final int key) {
+        final StringBuilder plainText = new StringBuilder();
 
-        for(int i = 0; i < cipherText.length(); i++) {
-            char ch = cipherText.charAt(i);
-            char decryptedChar = ch;
+        for (int i = 0; i < cipherText.length(); i++) {
+            char decryptedChar = cipherText.charAt(i);
             decryptedChar -= key;
-            plainText += decryptedChar;
+            plainText.append(decryptedChar);
         }
-        return plainText;
+        return plainText.toString();
     }
 }
